@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.content header h1{
+  text-transform: uppercase;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+}
+
+table tfoot td{
+  border-top: 2px solid black;
+  background-color: #dddddd;
+  text-align: center;
+}
+
+table thead{
+  background-color: #dddddd;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+thead th:nth-child(4){
+  width: 10rem;
+}
+
+table .t-btn{
+  display: flex;
+  justify-content: center;
+}
+
+.t-btn button{
+  box-sizing: border-box;
+  background-color: rgb(255, 164, 164);
+  padding: 7px 14px;
+  border-radius: 5px;
+  border: hidden
+}
+
+.t-btn button:hover{
+  border: 0 solid black;
+  background-color: rgb(206, 51, 82);
+  color: white;
+  cursor: pointer;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.content .searchText{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: 1.2rem;
+}
+
+.content .searchInput{
+  padding: .5rem;
+  border-style: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.content input[placeholder]{
+  font-size: 1.1rem;
+}
+
+.cadastro td .cadastroClick{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: fit-content;
+  margin: auto;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.cadastro .cancelar{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.tableData td:nth-child(2),
+.tableData td:nth-child(3){
+  text-transform: capitalize;
+}
