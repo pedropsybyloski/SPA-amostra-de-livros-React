@@ -23,7 +23,7 @@ export default function CadastrarLivro(props) {
                 click ? 
                 <td colSpan='4' className='cadastroInput'>
                     ISBN: <input type="text" name='isbn' placeholder='00-00-0000-000-0' onChange={e=>setIsbn(e.target.value)}/>
-                    Titulo: <input type="text" name='titulo' placeholder='Digite o titulo' onChange={e=>setTitulo(e.target.value)}/>
+                    Titulo: <input type="text" name='titulo' placeholder='Digite um titulo' onChange={e=>setTitulo(e.target.value)}/>
                     Autor: <input type="text" name='autor' placeholder='Digite nome do autor' onChange={e=>setAutor(e.target.value)}/>
                     <button onClick={_=>cadastrar()}>Cadastrar</button>
                     <span className='cancelar' onClick={_=>setClick(false)}>Cancelar</span>
